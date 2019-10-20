@@ -1,3 +1,6 @@
 import "bootstrap";
-console.log('Hello World from Webpacker')
+
+import modernizr from 'modernizr';
+
+console.log('Hello World from Webpacker');
 
