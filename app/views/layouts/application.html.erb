@@ -36,11 +36,19 @@
     </head>
 
   <body>
-    <%= render 'shared/navbar' %>
+    <header class="header">
+      <%= render 'shared/topbar' %>
+      <%= render 'shared/navbar' %>
+      <%#= render 'shared/megamenu' %>
+      <%#= render 'shared/multilevel' %>
+
+    </header>
 
     <%= yield %>
-    <%#= render 'shared/footer' %>
+    <%= render 'shared/footer' %>
     
+    <%= render 'shared/extras' %>
+
     <%= javascript_include_tag 'application' %>
     <%= javascript_pack_tag "application", defer: true %>
 
