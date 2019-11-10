@@ -17,6 +17,7 @@ gem 'webpacker', '>= 4.0.x'
 gem 'sassc-rails'
 gem 'uglifier'
 #gem 'simple_form'
+gem 'owlcarousel-rails'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
