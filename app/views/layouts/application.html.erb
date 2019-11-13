@@ -8,6 +8,8 @@
     <meta name="description" content="">
     <meta name="robots" content="all,follow">
 
+    <%= favicon_link_tag 'favicon.ico'%>
+
     <%= csrf_meta_tags %>
     <%= action_cable_meta_tag %>
     <!-- Cookie -->
@@ -37,17 +39,17 @@
 
   <body>
     <header class="header">
-      <%= render 'shared/topbar' %>
-      <%= render 'shared/navbar' %>
+      <%# <%= render 'shared/topbar' %>
+      <%# <%= render 'shared/navbar' %>
       <%#= render 'shared/megamenu' %>
       <%#= render 'shared/multilevel' %>
 
     </header>
 
     <%= yield %>
-    <%= render 'shared/footer' %>
+    <%# <%= render 'shared/footer' %>
     
-    <%= render 'shared/extras' %>
+    <%# <%= render 'shared/extras' %>
 
     <%= javascript_include_tag 'application' %>
     <%= javascript_pack_tag "application", defer: true %>
