@@ -1,17 +1,38 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Cindy Nine Nine</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title><%= meta_title %></title>
+    <meta name="description" content="<%= meta_description %>">
+
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="robots" content="all,follow">
 
-    <%= favicon_link_tag 'favicon.ico'%>
+    <!-- Facebook Open Graph data -->
+    <meta property="og:title" content="<%= meta_title %>" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="<%= request.original_url %>" />
+    <meta property="og:image" content="<%= meta_image %>" />
+    <meta property="og:description" content="<%= meta_description %>" />
+    <meta property="og:site_name" content="<%= meta_title %>" />
+
+    <!-- Twitter Card data -->
+    <!--    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="<%= DEFAULT_META["twitter_account"] %>">
+    <meta name="twitter:title" content="<%= meta_title %>">
+    <meta name="twitter:description" content="<%= meta_description %>">
+    <meta name="twitter:creator" content="<%= DEFAULT_META["twitter_account"] %>">
+    <meta name="twitter:image:src" content="cover.png">
+    -->
+
+    <!-- Favicons -->
+    <%= favicon_link_tag(source = "favicon.ico", options = {}) %>
 
     <%= csrf_meta_tags %>
     <%= action_cable_meta_tag %>
+
     <!-- Cookie -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
     <%# <%# <!-- Bootstrap CSS--> %>
@@ -40,14 +61,13 @@
   <body>
     <header class="header">
       <%# <%= render 'shared/topbar' %>
-      <%# <%= render 'shared/navbar' %>
+      <%= render 'shared/navbar' %>
       <%#= render 'shared/megamenu' %>
       <%#= render 'shared/multilevel' %>
-
     </header>
 
     <%= yield %>
-    <%# <%= render 'shared/footer' %>
+    <%= render 'shared/footer' %>
     
     <%# <%= render 'shared/extras' %>
 
