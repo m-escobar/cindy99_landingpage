@@ -1,0 +1,7 @@
+# config/meta.yml
+
+meta_product_name: "Cindy Nine Nine"
+meta_title: "Tabacaria e HeadShop"
+meta_description: "Os produtos que você procura."
+meta_image: "fbcover.png" # should exist in `app/assets/images/`
+# twitter_account: "@_brsystems"   # required for Twitter Cards
