@@ -1095,6 +1095,27 @@ section.hero {
         padding: 150px 0;
         background-size: cover !important;
     }
+    .item1 {
+        padding: 150px 0;
+        background: url('hero_c99_table.jpg');
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-size: cover !important;
+    }
+    .item2 {
+        padding: 150px 0;
+        background: url('hero_c99_pipe.jpg');
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-size: cover !important;
+    }
+    .item3 {
+        padding: 150px 0;
+        background: url('hero_c99_dichavador.jpg');
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-size: cover !important;
+    }
     .owl-dots {
         position: absolute;
         width: 100%;
@@ -1140,14 +1161,32 @@ section.hero {
     }
 }
 
-
 /* Hero Section Media Query -------------------------- */
 
-@media (max-width: 1120px) {
-    section.hero {
+@media (max-width: 568px) {
+  section.hero {
         .item {
             padding: 100px 0;
-        }
+            }
+        .item1 {
+            padding: 100px 0;
+            background: url('hero_c99_table_small.jpg');
+            background-repeat: no-repeat;
+            background-position-x: center;
+            }
+        .item2 {
+            padding: 100px 0;
+            background: url('hero_c99_pipe_small.jpg');
+            background-repeat: no-repeat;
+            background-position-x: center;
+            }
+        .item3 {
+            padding: 100px 0;
+            background: url('hero_c99_dichavador_small.jpg');
+            background-repeat: no-repeat;
+            background-position-x: center;
+            }
+
         .owl-dots {
             bottom: 20px;
         }
@@ -1168,10 +1207,9 @@ section.hero {
 
 section.parallax {
     padding-top: 15rem;
-    padding-bottom: 15rem; 
+    padding-bottom: 15rem;
 
 }
-
 
 /*
 * ===================================================
@@ -1188,7 +1226,7 @@ section.hero-video {
     align-items: center;
 }
 
-video.bg-video { 
+video.bg-video {
     position: absolute;
     background: #fff;
     top: 0;
