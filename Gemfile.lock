@@ -200,7 +200,7 @@ DEPENDENCIES
   puma
   rails (= 5.2.3)
   redis
-  sassc-rails
+  sassc-rails (~> 2.1, >= 2.1.2)
   spring
   spring-watcher-listen (~> 2.0.0)
   sprockets-rails (~> 3.2, >= 3.2.1)
@@ -209,7 +209,7 @@ DEPENDENCIES
   webpacker (>= 4.0.x)
 
 RUBY VERSION
-   ruby 2.5.3p105
+   ruby 2.5.6p201
 
 BUNDLED WITH
-   2.0.2
+   2.1.4

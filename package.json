@@ -2,11 +2,12 @@
   "name": "cindyninenine",
   "private": true,
   "dependencies": {
+    "@popperjs/core": "^2.0.4",
     "@rails/webpacker": "^4.0.7",
     "bootstrap": "^4.3.1",
     "jquery": "^3.4.1",
     "node-sass": "^4.12.0",
-    "popper.js": "^1.15.0",
+    "popper.js": "^1.16.1",
     "serialize-javascript": "^2.1.1",
     "webpack": "^4.0.0",
     "webpack-modernizr-loader": "^5.0.0"

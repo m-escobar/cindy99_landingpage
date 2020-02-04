@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.5.3'
+ruby '2.5.6'
 
 gem 'bootsnap', require: false
 gem 'jbuilder', '~> 2.0'
@@ -14,7 +14,7 @@ gem 'sprockets-rails', '~> 3.2', '>= 3.2.1'
 gem 'autoprefixer-rails'
 gem 'font-awesome-sass', '~> 5.6.1'
 gem 'webpacker', '>= 4.0.x'
-gem 'sassc-rails'
+gem 'sassc-rails', '~> 2.1', '>= 2.1.2'
 gem 'uglifier'
 #gem 'simple_form'
 gem 'owlcarousel-rails'
