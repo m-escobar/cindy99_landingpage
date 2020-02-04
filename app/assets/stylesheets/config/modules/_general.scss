@@ -1097,21 +1097,21 @@ section.hero {
     }
     .item1 {
         padding: 150px 0;
-        background: url('hero_c99_table.jpg');
+        background: url(asset_path('hero_c99_table.jpg'));
         background-repeat: no-repeat;
         background-position-x: center;
         background-size: cover !important;
     }
     .item2 {
         padding: 150px 0;
-        background: url('hero_c99_pipe.jpg');
+        background: url(asset_path('hero_c99_pipe.jpg'));
         background-repeat: no-repeat;
         background-position-x: center;
         background-size: cover !important;
     }
     .item3 {
         padding: 150px 0;
-        background: url('hero_c99_dichavador.jpg');
+        background: url(asset_path('hero_c99_dichavador.jpg'));
         background-repeat: no-repeat;
         background-position-x: center;
         background-size: cover !important;
@@ -1170,19 +1170,19 @@ section.hero {
             }
         .item1 {
             padding: 100px 0;
-            background: url('hero_c99_table_small.jpg');
+            background: url(asset_path('hero_c99_table_small.jpg'));
             background-repeat: no-repeat;
             background-position-x: center;
             }
         .item2 {
             padding: 100px 0;
-            background: url('hero_c99_pipe_small.jpg');
+            background: url(asset_path('hero_c99_pipe_small.jpg'));
             background-repeat: no-repeat;
             background-position-x: center;
             }
         .item3 {
             padding: 100px 0;
-            background: url('hero_c99_dichavador_small.jpg');
+            background: url(asset_path('hero_c99_dichavador_small.jpg'));
             background-repeat: no-repeat;
             background-position-x: center;
             }
